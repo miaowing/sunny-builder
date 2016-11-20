@@ -1,0 +1,13 @@
+{
+  "name": "sunny-builder",
+  "version": "0.1.0",
+  "description": "",
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunny-lab/sunny-builder.git"
+  },
+  
+  "author": "yedaodao",
+  "license": "GNU"
+}
