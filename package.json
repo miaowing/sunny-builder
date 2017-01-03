@@ -2,12 +2,23 @@
   "name": "sunny-builder",
   "version": "0.1.0",
   "description": "",
-  
   "repository": {
     "type": "git",
     "url": "https://github.com/sunny-lab/sunny-builder.git"
   },
-  
+  "scripts": {
+    "test": "ava test/**/*.test.js"
+  },
   "author": "yedaodao",
-  "license": "GNU"
+  "license": "GNU",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "graceful-fs": "^4.1.11",
+    "html-webpack-plugin": "^2.25.0",
+    "lodash": "^4.17.4",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {
+    "ava": "^0.3.0"
+  }
 }
