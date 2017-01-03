@@ -1,0 +1,11 @@
+{
+  "name": "sunbuilder-integrate",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yedaodao",
+  "license": "ISC"
+}
