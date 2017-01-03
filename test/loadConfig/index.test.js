@@ -17,9 +17,6 @@ test('assert lib.loadConfig()', async t => {
     t.is(_.isNil(devConfig), false);
     t.is(_.isNil(buildConfig), false);
     t.is(_.isNil(distConfig), false);
-    console.log(devConfig);
-    console.log(buildConfig);
-    console.log(distConfig);
     t.throws(() => {
         configManager.getConfig('none', configPath)
     });
