@@ -1,16 +1,15 @@
 import test from 'ava';
 import path from 'path';
-import _ from 'lodash';
+import del from 'del';
 
-import init from '../../lib/init';
-import configManager from '../../lib/config';
+import lib from '../../lib';
 
-test('assert init.installDeps()', async t => {
-    init.installDeps(configManager.getDeps(path.resolve(__dirname, 'sun.config.js')))
-        .then(() => {
-            t.pass();
-        })
-        .catch((err) => {
-            t.fail(err);
-        });
+test('assert lib.initEnv', async t => {
+    try {
+        await lib.initEnv(__dirname);
+        del.sync(path.join(__dirname, 'node_modules'));
+        t.pass();
+    } catch (err) {
+        t.fail(err);
+    }
 });
