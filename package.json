@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/sunny-lab/sunny-builder.git"
   },
+  "bin": {
+    "sun": "./bin/sun.js"
+  },
   "scripts": {
     "test": "ava test/**/*.test.js"
   },
