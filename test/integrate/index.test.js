@@ -15,5 +15,8 @@ test('assert lib', async t => {
     }
 });
 test.after('assert lib', async t => {
-    del.sync([path.join(__dirname, 'node_modules'), path.join(__dirname, 'build')]);
+    del.sync([
+        path.join(__dirname, 'node_modules'),
+        // path.join(__dirname, 'build')
+    ]);
 });
