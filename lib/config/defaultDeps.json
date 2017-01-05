@@ -1,0 +1,20 @@
+{
+  "devDeps":[
+    "babel-core",
+    "babel-plugin-add-module-exports",
+    "babel-polyfill",
+    "babel-preset-es2015",
+    "babel-preset-stage-0",
+    "babel-loader",
+    "autoprefixer",
+    "style-loader",
+    "postcss-loader",
+    "less-loader",
+    "css-loader",
+    "url-loader",
+    "file-loader",
+    "less",
+    "postcss",
+    "webpack-dev-server"
+  ]
+}

@@ -1,5 +1,4 @@
-var path = require('path'),
-    HtmlWebpackPlugin = require('html-webpack-plugin');
+var path = require('path');
 
 module.exports = {
     webpack: {
@@ -7,17 +6,9 @@ module.exports = {
             app: ['./test/integrate/src/app.js']
         },
         output: {
-            path: path.resolve(__dirname, "build"),
-            publicPath: '',
-            filename: "[name]_[hash].js"
-        },
-        plugins:[
-            new HtmlWebpackPlugin({
-                chunks: ['app'],
-                template: 'test/integrate/src/index.html',
-                filename: 'index.html'
-            })
-        ]
+            path: path.join(__dirname, 'build'),
+            publicPath: ''
+        }
     },
     pageMap: [
         {
@@ -31,6 +22,8 @@ module.exports = {
         staticServer: 'http://localhost:' + 8081,
     },
     releaseDir: 'build',
+    scriptDir: 'js',
+    styleDir: 'css',
     build: {},
     dist: {},
     deps: [],

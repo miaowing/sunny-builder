@@ -23,9 +23,11 @@ module.exports = {
         webpackServerPort: 8081,
         staticServer: 'http://localhost:' + 8081,
     },
-    releaseDir: 'build',
+    releaseDir: 'release',
     build: {},
     dist: {},
+    scriptDir: 'js',
+    styleDir: 'css',
     deps: [],
     devDeps: []
 };
