@@ -15,6 +15,8 @@
     "file-loader",
     "less",
     "postcss",
-    "webpack-dev-server"
+    "webpack-dev-server",
+    "html-webpack-plugin",
+    "webpack"
   ]
 }
