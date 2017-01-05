@@ -13,6 +13,7 @@
     "css-loader",
     "url-loader",
     "file-loader",
+    "html-loader",
     "less",
     "postcss",
     "webpack-dev-server",

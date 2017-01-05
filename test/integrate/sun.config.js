@@ -27,5 +27,6 @@ module.exports = {
     build: {},
     dist: {},
     deps: [],
-    devDeps: []
+    devDeps: [
+    ]
 };
