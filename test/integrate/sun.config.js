@@ -1,4 +1,5 @@
-var path = require('path');
+var path = require('path'),
+    HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     webpack: {
@@ -9,7 +10,14 @@ module.exports = {
             path: path.resolve(__dirname, "build"),
             publicPath: '',
             filename: "[name]_[hash].js"
-        }
+        },
+        plugins:[
+            new HtmlWebpackPlugin({
+                chunks: ['app'],
+                template: 'test/integrate/src/index.html',
+                filename: 'index.html'
+            })
+        ]
     },
     pageMap: [
         {
