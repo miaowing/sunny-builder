@@ -25,7 +25,9 @@ module.exports = {
     },
     releaseDir: 'release',
     build: {},
-    dist: {},
+    dist: {
+        publicPath:'http://cdn.example.com'
+    },
     scriptDir: 'js',
     styleDir: 'css',
     deps: [],
