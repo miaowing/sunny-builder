@@ -39,6 +39,7 @@
     "npm-install-package": "^2.1.0",
     "postcss": "^5.2.8",
     "postcss-loader": "^1.2.1",
+    "shelljs": "^0.7.6",
     "style-loader": "^0.13.1",
     "uglify-js": "^2.8.4",
     "uglifyjs-webpack-plugin": "^0.2.1",
