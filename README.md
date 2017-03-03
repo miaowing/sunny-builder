@@ -15,8 +15,10 @@ The builder is based on [webpack](http://webpack.github.io). It contains a serie
 
 install the builder in global.
 
+It is based on [webpack2](https://github.com/webpack/webpack)
+
 ```
-npm install -g sunny-builder
+npm install -g sunny-builder@1.0.0-0
 ```
 
 ## Get Started
