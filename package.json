@@ -43,6 +43,7 @@
     "style-loader": "^0.13.1",
     "uglify-js": "^2.8.4",
     "uglifyjs-webpack-plugin": "^0.2.1",
+    "url-join": "^1.1.0",
     "url-loader": "^0.5.7",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.1"
